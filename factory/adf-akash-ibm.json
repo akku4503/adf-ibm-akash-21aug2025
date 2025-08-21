@@ -1,0 +1,9 @@
+{
+	"name": "adf-akash-ibm",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c4087c7e-ab44-4d81-9eb0-b5df066eeb46",
+		"tenantId": "6c97a608-c34c-4f32-bd0c-37b5fba68685"
+	}
+}
