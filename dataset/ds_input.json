@@ -1,0 +1,67 @@
+{
+	"name": "ds_input",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_AWS_S3",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Gen2Gen2"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AmazonS3Location",
+				"bucketName": "bkt-akash-0312-12aug",
+				"fileName": "adf-akash-ibm_Activity runs.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Activity name",
+				"type": "String"
+			},
+			{
+				"name": "Activity status",
+				"type": "String"
+			},
+			{
+				"name": "Error",
+				"type": "String"
+			},
+			{
+				"name": "Activity type",
+				"type": "String"
+			},
+			{
+				"name": "Run start",
+				"type": "String"
+			},
+			{
+				"name": "Duration",
+				"type": "String"
+			},
+			{
+				"name": "Integration runtime",
+				"type": "String"
+			},
+			{
+				"name": "User properties",
+				"type": "String"
+			},
+			{
+				"name": "Activity run ID",
+				"type": "String"
+			},
+			{
+				"name": "Log",
+				"type": "String"
+			}
+		]
+	}
+}
