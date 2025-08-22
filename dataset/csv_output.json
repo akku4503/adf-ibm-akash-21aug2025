@@ -5,6 +5,9 @@
 			"referenceName": "ls_storageAccount_Gen2",
 			"type": "LinkedServiceReference"
 		},
+		"folder": {
+			"name": "Gen2Gen2"
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
